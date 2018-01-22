@@ -135,7 +135,7 @@ public class ApelSPV {
                 sslsocket.setKeepAlive(true);
                 sslsocket.startHandshake();
                 String inputLine;
-                for(int i=0; i<15;i++){
+               
              //exemplu pentru obtinere lista mesaje pe 50 zile. Similar se apeleaza si descarcarea (download) sau alte metode care pot apare in viitor
                 String url = "https://webserviced.anaf.ro/SPVWS2/rest/listaMesaje?zile=50";
                 URL obj = new URL(url);
@@ -150,7 +150,7 @@ public class ApelSPV {
                 }
 
                 in.close();
-                con.disconnect();}
+                con.disconnect();
 
             } catch (NoSuchAlgorithmException ex) {
                 LOGGER.error("err1: ", ex);
