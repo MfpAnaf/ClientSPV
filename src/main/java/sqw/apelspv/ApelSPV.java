@@ -43,7 +43,7 @@ public class ApelSPV {
 
     private static final Logger LOGGER = Logger.getLogger(ApelSPV.class);
     //se modifica cu PIN-ul certificatului
-    private static final String PIN = "1234";
+    private static final String PIN = "12345678";
     private static final String PROXY_IP = null;
     private static final String PROXY_PORT = null;
      //cale catre fisierul de configurare al tokenului. in cazul de fata aladdin. Modelele de fisiere de configurare se pot regasi in DUKIntegrator (surse publicate pe www.anaf.ro) 
@@ -137,7 +137,7 @@ public class ApelSPV {
                 String inputLine;
                
              //exemplu pentru obtinere lista mesaje pe 50 zile. Similar se apeleaza si descarcarea (download) sau alte metode care pot apare in viitor
-                String url = "https://webserviced.anaf.ro/SPVWS2/rest/listaMesaje?zile=50";
+                String url = "https://webserviced.anaf.ro/SPVWS2/rest/listaMesaje?zile=500";
                 URL obj = new URL(url);
                 HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
                 //Setare contextul de SSL
