@@ -39,111 +39,111 @@ intoarce un pdf = mesajul din SPV sau o eroare de genul:
 
 Lista rapoartelor si documentelor care pot fi solicitate prin SPV:
 
-SOLICITARE				EXPLICATIE															PF	PJ	PERIOADA INECPUT
+SOLICITARE				EXPLICATIE															
 						
-D112Contrib				Informatii privind contributiile sociale conform datelor			D	N 		2011									
+D112Contrib				Informatii privind contributiile sociale conform datelor											
 						declarate de angajatori in declaratia D112																
 						
-Obligatii de plata		Situaţia obligaţiilor fiscale de plată neachitate la sfarsitul 		D 	N 		2014
+Obligatii de plata		Situaţia obligaţiilor fiscale de plată neachitate la sfarsitul 		
 						lunii anterioara
 						
-Nota obligatiilor de 	Cu aceasta nota va puteti prezenta la ghiseele trezoreriei pentru	D	N		2014
+Nota obligatiilor de 	Cu aceasta nota va puteti prezenta la ghiseele trezoreriei pentru	
 plata					achitarea obligatiilor sau puteti folosi informatiile pentru a
 						efectua plata prin mijloace de plata la distanta (online banking)		
 						
-Istoric Spatiu			Istoric activitati in cadrul spatiului privat virtual - modificari	D	N		9.2014 
+Istoric Spatiu			Istoric activitati in cadrul spatiului privat virtual - modificari	
 Virtual					profil, descarcari
 
-Registru				Istoric activitati in cadrul spatiului privat virtual- intrari si  	D	N		9.2014
+Registru				Istoric activitati in cadrul spatiului privat virtual- intrari si  	
 intrari-iesiri			iesiri de documente
 
-Bilant anual			Situatii financiare anuale	Luna se alege automat 					N	D		2011
+Bilant anual			Situatii financiare anuale	Luna se alege automat 					
 
-D300					Declaratia 300 - Decont de taxa pe valoare adaugata.				N	D		2011
+D300					Declaratia 300 - Decont de taxa pe valoare adaugata.				
 						Include si declaratia 305	
 						
-Istoric declaratii		Declaratiile care fac obiectul raportului:D100,D101,D102,D103,		N 	D		2011
+Istoric declaratii		Declaratiile care fac obiectul raportului:D100,D101,D102,D103,		
 						D112,D120,D130,D300,D301,D390,D394,D710,D205. Sunt afisate 
 						declaratiile valide depuse pentru perioadele de raportare aferente
 						anului selectat (lunare, trimestriale, semestriale sau anuale)				
 							
-D390					Declaratie recapitulativa privind livrarile / achizitiile			N 	D 		2011
+D390					Declaratie recapitulativa privind livrarile / achizitiile			
 						intracomunitare de bunuri	
 						
-D100					Declaratie privind obligatiile de plata la bugetul de stat			N  	D 		2011
+D100					Declaratie privind obligatiile de plata la bugetul de stat			
 						Include declaratiile D100 si D710 valide pentru un anumit
 						CUI si perioada	
 	
-Bilant semestrial		Rapoarte financiare semestriale 									N	D		2012	
+Bilant semestrial		Rapoarte financiare semestriale 										
 
-Istoric bilant			Istoricul situatiilor financiare depus si a raportarilor 			N 	D 		12.2011
+Istoric bilant			Istoricul situatiilor financiare depus si a raportarilor 			
 						semestriale (ultimele valide depuse)	
 						
-D205					Declaratie  informativa privind impozitul retinut la sursa si		N 	D 		2012
+D205					Declaratie  informativa privind impozitul retinut la sursa si		
 						castigurile/pierderile realizate, pe beneficiari de venit
 						
-D120					Decont privind accizele												N	D		2011
+D120					Decont privind accizele												
 
-D101					Declaratie privind impozitul pe profit								N 	D 		2011
+D101					Declaratie privind impozitul pe profit								
 
-D130					Decont privind impozitul la titeiul din productia interna			N	D		2011
+D130					Decont privind impozitul la titeiul din productia interna			
 
-D112					Declaratia privind obligatiile de plata a contributiilor sociale,	D 	D 		2011
+D112					Declaratia privind obligatiile de plata a contributiilor sociale,	
 						impozitului pe venit si evidenta nominala a persoanelor asigurate	
 						
-DATE IDENTIFICARE		Informatiile privind datele de identificare ale persoanei 			N 	D 		-
+DATE IDENTIFICARE		Informatiile privind datele de identificare ale persoanei 			
 						juridice. Sunt informatiile existente in baza de date ANAF la
 						data generarii raspunsului	
 						
-VECTOR FISCAL			Informatiile persoanei juridice din vectorul fiscal	Sunt 			N 	D 		-
+VECTOR FISCAL			Informatiile persoanei juridice din vectorul fiscal	Sunt 			
 						informatiile existente in baza de date ANAF la data generarii 
 						raspunsului	
 						
-Situatie Sintetica		Informatii privind situatia debitelor persoanei juridice			N 	D 		-
+Situatie Sintetica		Informatii privind situatia debitelor persoanei juridice			
 						Raportul este generat pana pe 10 ale lunii, pentru luna anterioara	
 						
-D208					Declaratie informativa privind impozitul pe veniturile din			N 	D 		2012
+D208					Declaratie informativa privind impozitul pe veniturile din			
 						transferul proprietatilor imobiliare din patrimoniul personal
 						Declaratia este semestriala - se alege luna 6 pentru semestrul 1 
 						si luna 12 pentru semestrul 2
 						
-D301					Decont special de taxa pe valoarea adaugata							N	D		2011
+D301					Decont special de taxa pe valoarea adaugata							
 
 
-InterogariBanci			Situatia interogarilor efectuate de banci la ANAF privind 			D 	N 		2015
+InterogariBanci			Situatia interogarilor efectuate de banci la ANAF privind 			
 						veniturile persoanei fizice	
 						
-Fisa Rol				Fisa pe platitor, generata din informatiile existente in baza		N 	D 		-
+Fisa Rol				Fisa pe platitor, generata din informatiile existente in baza		
 						locala a administratiei financiare unde este arondat cui-ul		
 						
-D394					Declaratie informativa privind livrarile/ prestarile si				N 	D 		2011
+D394					Declaratie informativa privind livrarile/ prestarile si				
 						achizitiile efectuate pe teritoriul national
 						
-D392					Declaratie informativa privind livrarile de bunuri si				N 	D 		2011
+D392					Declaratie informativa privind livrarile de bunuri si				
 						prestarile de servicii	
 						
-D393					Declaratie informativa privind veniturile obtinute din 				N 	D 		2011
+D393					Declaratie informativa privind veniturile obtinute din 				
 						vanzarea de bilete pentru transportul rutier international
 						de persoane	
 						
-D180					Nota de certificare. Se intocemeste de catre consultantii 			N 	D 		2016
+D180					Nota de certificare. Se intocemeste de catre consultantii 			
 						fiscali activi pentru contribuabilii care opteaza pentru 
 						certificarea de catre un consultant fiscal a declaratiilor
 						fiscale	
 						
-D311					Declaratie privind taxa pe valoare adaugata colectata,				N 	D 		2012
+D311					Declaratie privind taxa pe valoare adaugata colectata,				
 						datorata de catre persoanele impozibile a caror cod de 
 						inregistrare in scopuri de taxa pe valoare adaugata a fost anulat		
 						
-D106					Declaratie informativa privind dividentele cuvenite actionarilor	N	D		2013
+D106					Declaratie informativa privind dividentele cuvenite actionarilor	
 
-Duplicat Recipisa		Duplicat dupa recipisa declaratiilor care se depun electronic.		D 	D 		2011
+Duplicat Recipisa		Duplicat dupa recipisa declaratiilor care se depun electronic.		
 						Este un raport generat la data solicitarii, nu este recipisa
 						originala primita la depunere	
 						
-Adeverinte Venit		Adeverinta de venit pentru persoana fizica							D 	N 		2013
+Adeverinte Venit		Adeverinta de venit pentru persoana fizica							
 
-D212       				Duplicat dupa ultimele declaratii unice persoane fizice depuse		D 	N 		2018
+D212       				Duplicat dupa ultimele declaratii unice persoane fizice depuse		
 						(pe capitole - ultimele rectificari, daca este cazul)		
 
 In acest moment mai ramane de implementat cererea de certificat de atestare fiscala (CAF) care prezinta unele dificultati si va fi introdusa ulterior.
