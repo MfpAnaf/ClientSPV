@@ -245,8 +245,13 @@ erori tehnice
 {eroare:Eroare transmitere cerere. Cod 057,titlu:Cerere}
 (in acest caz folositi formularul de contact sau adresa de mail spv.webservice@mfinante.ro pentru a semnala eroarea tehnica, cu precizarea codului de eroare obtinut si, daca este posibil, a apelului efectuat)
 
+06.11.2018 - modificari la WS
+1. corectie data creare - se afiseaza si ora, minut, secunda
+2. corectie descarcare rapoarte Anliza de risc - se intorcea null pentruu aceasta categorie
+3. adaugat parametrul cif la listaMesaje, pentru a obtine doar mesajele pentru un anumit CUI/ CNP - exemplu:
+https://webserviced.anaf.ro/SPVWS2/rest/listaMesaje?zile=50&cif=8000000000
 
-Pentru viitor se are in vedere devoltarea de servicii web pentru autentificare cu user si parola (persoane fizice in nume propriu) si adaugarea de noi metodeȘ transmitere declaratii, transmitere sesizari prin formularul de contact, modificari profil, etc.
+Pentru viitor se are in vedere devoltarea de servicii web pentru autentificare cu user si parola (persoane fizice in nume propriu) si adaugarea de noi metode: transmitere declaratii, solicitare CAF, transmitere sesizari prin formularul de contact, modificari profil, etc.
 
 Ne puteti contacta la adresa de mail 
 spv.webservice@mfinante.ro
