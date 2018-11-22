@@ -109,6 +109,11 @@ public class ApelSPV {
             LOGGER.error(err);
         } else {
             try {
+                
+                // setez trustssl pentru conexiunea cu anaf
+                System.setProperty("javax.net.ssl.trustStore","anafserverstore.keystore");
+                System.setProperty("javax.net.ssl.trustStorePassword","123456");
+                
                 KeyManagerFactory kmf = KeyManagerFactory.getInstance("SunX509");
                 KeyStore ks = KeyStore.getInstance("PKCS11");
                 char[] key = new char[0];
