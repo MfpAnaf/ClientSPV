@@ -50,6 +50,11 @@ public class ApelSPV {
     private static final String CALE_FISIER_CONFIGURARE="C:\\DUKIntegrator\\dist\\config\\aladdin.cfg";
 
     public static void main(String[] args) {
+        
+        // creez keystore daca nu exista
+        UtilitareKeyStore.createKeyStore();
+        // import certificat anaf in keystore
+        UtilitareKeyStore.adaugCertificatAnafOnlineInKeyStore();
 
         if (PROXY_IP != null) {
             System.setProperty("https.proxyHost", PROXY_IP);
