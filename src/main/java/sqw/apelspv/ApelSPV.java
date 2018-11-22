@@ -66,6 +66,11 @@ public class ApelSPV {
 
         //avem incredere in orice certificat. Corect ar fi sa se adauge certificatul de la Anaf la trusted
         try {
+            
+            // setez trustssl pentru conexiunea cu anaf
+                System.setProperty("javax.net.ssl.trustStore","anafserverstore.keystore");
+                System.setProperty("javax.net.ssl.trustStorePassword","123456");
+            
             TrustManager[] trustAllCerts = new TrustManager[]{
                 new X509TrustManager() {
                     @Override
