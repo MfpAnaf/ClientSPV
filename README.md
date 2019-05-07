@@ -144,7 +144,12 @@ Duplicat Recipisa		Duplicat dupa recipisa declaratiilor care se depun electronic
 Adeverinte Venit		Adeverinta de venit pentru persoana fizica							
 
 D212       				Duplicat dupa ultimele declaratii unice persoane fizice depuse		
-						(pe capitole - ultimele rectificari, daca este cazul)		
+						(pe capitole - ultimele rectificari, daca este cazul)	
+NeconcordanteD112CNP		Detalii neconcorsante D112 - REVISAL
+
+NeconcordanteD394		Neconcordante actualizate la D394, petru o perioada specificata	
+
+
 
 In acest moment mai ramane de implementat cererea de certificat de atestare fiscala (CAF) care prezinta unele dificultati si va fi introdusa ulterior.
 						
@@ -229,7 +234,8 @@ https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip=D301&cui=8000000000&an=2018&l
 https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip=D180&cui=8000000000&an=2018&luna=6
 https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip=D311&cui=8000000000&an=2018&luna=6
 https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip=D212&cui=1111111111118&an=2018
-
+https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip=NeconcordanteD112CNP&cui=8000000000
+https://webserviced.anaf.ro/SPVWS2/rest/cerere?tip= NeconcordanteD394 &cui=8000000000&an=2018&lunai=1&lunas=8
 
 
 Raspuns:
